@@ -14,6 +14,14 @@ interface Movie {
 const movies: Movie[] = [
   {
     id: 1,
+    title: 'Stranger Things 5',
+    year: '2025',
+    genre: 'Terror/Ficção',
+    rating: '9.9',
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg'
+  },
+  {
+    id: 2,
     title: 'Vingadores: Doomsday',
     year: '2026',
     genre: 'Ação/Marvel',
@@ -21,20 +29,12 @@ const movies: Movie[] = [
     image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/u0Hw7574Wp2hQ3GryvX94gG59A9.jpg'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Avatar: Fogo e Cinzas',
     year: '2025',
     genre: 'Ficção Científica',
     rating: '9.5',
     image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/1HwV5D28V6Tqj4G8P6N6F816o6S.jpg'
-  },
-  {
-    id: 3,
-    title: 'Stranger Things 5',
-    year: '2025',
-    genre: 'Terror/Ficção',
-    rating: '9.9',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg'
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const movies: Movie[] = [
     year: '2026',
     genre: 'Ficção Científica',
     rating: '9.6',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/8b8R8l88EHG4N9K8K3K8R3H9.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/sz6vI39Wv90C8T1yqYyLAsv3L4k.jpg'
   },
   {
     id: 7,
@@ -90,7 +90,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Ação/Marvel',
     rating: '9.3',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/g4iSlC7W3SrQRkNw2fRizMBrmsu.jpg'
   }
 ]
 
