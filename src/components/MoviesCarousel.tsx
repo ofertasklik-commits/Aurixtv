@@ -18,7 +18,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Terror/Ficção',
     rating: '9.9',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/ql8xxCWMDIIIFnrMLRMZL5M3khNy.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg'
   },
   {
     id: 2,
