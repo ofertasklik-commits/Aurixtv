@@ -18,7 +18,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Terror/Ficção',
     rating: '9.9',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/ql8xxCWMDIIIFnrMLRMZL5M3khNy.jpg'
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const movies: Movie[] = [
     year: '2026',
     genre: 'Ação/Marvel',
     rating: '9.8',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/u0Hw7574Wp2hQ3GryvX94gG59A9.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/rQKabpeIewLLNStFr3anEXI0xqu.jpg'
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Ficção Científica',
     rating: '9.5',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/1HwV5D28V6Tqj4G8P6N6F816o6S.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/4n1U0Mwn7djux6VKNYDRWPgS2x6.jpg'
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Ação/Herói',
     rating: '9.4',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/vHe69Yid00P20jO83qYJpS8Y1zW.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/fvUJb08yatV2b3NUSwuYdQKYoFd.jpg'
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Drama/Ação',
     rating: '9.7',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/rcvG3eWd5y1yD5g5oU79x9H1kH.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg'
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const movies: Movie[] = [
     year: '2026',
     genre: 'Ficção Científica',
     rating: '9.6',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/sz6vI39Wv90C8T1yqYyLAsv3L4k.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/50sKsNIsFGMv8NynLjTcteCqioL.jpg'
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Star Wars/Aventura',
     rating: '9.2',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/aY7a38Ef0lNn0ohMpaG4ODUuPIG.jpg'
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Ação/Suspense',
     rating: '9.0',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/qXcpG5J1Q2YQ2fI5K8M2Y9T2I8.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/haOjJGUV00dKlZaJWgjM1UD1cJV.jpg'
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ const movies: Movie[] = [
     year: '2026',
     genre: 'Fantasia/HBO',
     rating: '9.5',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/k5K2E7T5V4C1S0N7D6Y0G4N3Q0.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/8MaxftF69sEAAD5673vTjIl8yT3.jpg'
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ const movies: Movie[] = [
     year: '2025',
     genre: 'Ação/Marvel',
     rating: '9.3',
-    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/g4iSlC7W3SrQRkNw2fRizMBrmsu.jpg'
+    image: 'https://images.weserv.nl/?url=https://image.tmdb.org/t/p/w500/z7wI0jpec9gz2IwVciND1nbRBy0.jpg'
   }
 ]
 
