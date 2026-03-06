@@ -1,4 +1,4 @@
-import { Shield, Gauge, HeadphonesIcon, Globe, Lock, Zap } from 'lucide-react'
+import { Shield, Gauge, HeadphonesIcon, Globe, Lock, Zap, PlusSquare } from 'lucide-react'
 
 const features = [
   {
@@ -36,6 +36,12 @@ const features = [
     title: 'Atualizações Automáticas',
     description: 'Novos canais e conteúdos adicionados diariamente',
     highlight: 'Sempre atualizado'
+  },
+  {
+    icon: PlusSquare,
+    title: 'Solicitar Filmes',
+    description: 'Você pode solicitar filmes e séries a qualquer momento através do seu link personalizado',
+    highlight: 'Sob demanda'
   }
 ]
 
@@ -94,11 +100,11 @@ export function TechnicalFeatures() {
             <p className="text-sm text-muted-foreground">Tempo de resposta</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">50k+</div>
+            <div className="text-4xl font-bold text-primary mb-2">2k+</div>
             <p className="text-sm text-muted-foreground">Canais disponíveis</p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">100k+</div>
+            <div className="text-4xl font-bold text-primary mb-2">40k+</div>
             <p className="text-sm text-muted-foreground">Filmes e séries</p>
           </div>
         </div>

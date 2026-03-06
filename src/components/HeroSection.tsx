@@ -35,7 +35,7 @@ export function HeroSection() {
 
           {/* Subtítulo */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Mais de 2.000 canais ao vivo e 40.000 filmes e séries em qualidade 4K.
+            Mais de 2.000 canais ao vivo e 40.000+ filmes e séries em qualidade 4K.
             Sem travamentos, sem limites.
           </p>
 
