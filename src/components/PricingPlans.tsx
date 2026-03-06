@@ -93,9 +93,6 @@ export function PricingPlans() {
 
             // Generate full features list
             const planFeatures = [...baseFeatures, deviceText]
-            if (plan.id === 'yearly') {
-              planFeatures.push('1 mês grátis de bônus')
-            }
 
             return (
               <div
