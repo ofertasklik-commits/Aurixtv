@@ -1,4 +1,4 @@
-import { Shield, Gauge, HeadphonesIcon, Globe, Lock, Zap, PlusSquare } from 'lucide-react'
+import { Shield, Gauge, HeadphonesIcon, Globe, Lock, Zap } from 'lucide-react'
 
 const features = [
   {
@@ -36,12 +36,6 @@ const features = [
     title: 'Atualizações Automáticas',
     description: 'Novos canais e conteúdos adicionados diariamente',
     highlight: 'Sempre atualizado'
-  },
-  {
-    icon: PlusSquare,
-    title: 'Solicitar Filmes',
-    description: 'Você pode solicitar filmes e séries a qualquer momento através do seu link personalizado',
-    highlight: 'Sob demanda'
   }
 ]
 

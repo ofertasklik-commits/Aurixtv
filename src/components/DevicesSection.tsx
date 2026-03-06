@@ -68,7 +68,14 @@ export function DevicesSection() {
         </div>
 
         {/* Feature badges */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-6xl mx-auto">
+          <div className="bg-card border border-border rounded-lg p-6 text-center">
+            <div className="text-4xl mb-3">🎬</div>
+            <h3 className="font-bold text-foreground mb-2">Solicitar Filmes</h3>
+            <p className="text-sm text-muted-foreground">
+              Solicite filmes e séries a qualquer momento via link personalizado
+            </p>
+          </div>
           <div className="bg-card border border-border rounded-lg p-6 text-center">
             <div className="text-4xl mb-3">📱</div>
             <h3 className="font-bold text-foreground mb-2">Multi-tela</h3>
