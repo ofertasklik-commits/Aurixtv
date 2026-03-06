@@ -31,8 +31,8 @@ const plans2Telas: PlanBase[] = [
 ]
 
 const baseFeatures = [
-  '50.000+ canais ao vivo',
-  '100.000+ filmes e séries',
+  '2.000+ canais ao vivo',
+  '40.000+ filmes e séries',
   'Qualidade 4K/HD',
   'Suporte VIP via WhatsApp',
   'Sem contrato de fidelidade'
