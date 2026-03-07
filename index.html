@@ -7,6 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AurixTV</title>
 
+  <!-- Prevenção de Cache Agressivo (Mobile) -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <!-- Script global de captura de erro de módulo (Auto-Reload Silencioso) -->
+  <script>
+    window.addEventListener('error', function (e) {
+      if (e.message && e.message.includes('Failed to fetch dynamically imported module')) {
+        console.warn('Cache desatualizado detectado. Forçando recarregamento da página...');
+        e.preventDefault();
+        // Recarregar a página quebrando as referências de cache
+        window.location.reload(true);
+      }
+    });
+  </script>
 </head>
 
 <body>
