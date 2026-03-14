@@ -1,7 +1,10 @@
 import { Button } from '@/components/ui/button'
 import { Play, Sparkles } from 'lucide-react'
+import { useState } from 'react'
+import { TrialModal } from './TrialModal'
 
 export function HeroSection() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
     <section className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden pt-28 pb-20">
@@ -44,12 +47,14 @@ export function HeroSection() {
             <Button
               size="lg"
               className="h-16 px-10 text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl shadow-primary/30 transition-all hover:scale-105 active:scale-95"
-              onClick={() => window.open('https://wa.me/5511910437332', '_blank')}
+              onClick={() => setIsModalOpen(true)}
             >
               <Play className="w-6 h-6 mr-2 fill-current" />
               QUERO MEU ACESSO IMEDIATO
             </Button>
           </div>
+
+          <TrialModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 
           {/* Social proof */}
           <div className="flex flex-col items-center justify-center gap-4 text-sm text-muted-foreground pt-4">

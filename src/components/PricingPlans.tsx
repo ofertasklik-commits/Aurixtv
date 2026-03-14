@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Check, Sparkles, Crown, Zap, MonitorSmartphone } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { TrialModal } from './TrialModal'
 
 interface PlanBase {
   id: string
@@ -40,6 +41,7 @@ const baseFeatures = [
 
 export function PricingPlans() {
   const [screens, setScreens] = useState<1 | 2>(1)
+  const [isTrialOpen, setIsTrialOpen] = useState(false)
   const currentPlans = screens === 1 ? plans1Tela : plans2Telas
   const monthlyPrice = currentPlans.find(p => p.id === 'monthly')?.price ?? 0
   const quarterlyPrice = currentPlans.find(p => p.id === 'quarterly')?.price ?? 0
@@ -175,7 +177,7 @@ export function PricingPlans() {
                     plan.bestValue &&
                     'bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 ring-2 ring-primary/50'
                   )}
-                  onClick={() => window.open('https://wa.me/5511910437332', '_blank')}
+                  onClick={() => setIsTrialOpen(true)}
                 >
                   ASSINAR AGORA
                 </Button>
@@ -233,6 +235,7 @@ export function PricingPlans() {
           </div>
         </div>
       </div>
+      <TrialModal isOpen={isTrialOpen} onClose={() => setIsTrialOpen(false)} />
     </section>
   )
 }

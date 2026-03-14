@@ -2,9 +2,11 @@ import { useState } from 'react'
 import { Button } from './ui/button'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { TrialModal } from './TrialModal'
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
+    const [isTrialModalOpen, setIsTrialModalOpen] = useState(false)
 
     const toggleMenu = () => setIsOpen(!isOpen)
 
@@ -34,7 +36,7 @@ export function Navbar() {
                         <Button
                             size="sm"
                             className="bg-primary hover:bg-primary/90 font-bold"
-                            onClick={() => window.open('https://wa.me/5511910437332', '_blank')}
+                            onClick={() => setIsTrialModalOpen(true)}
                         >
                             TESTE GRÁTIS
                         </Button>
@@ -79,11 +81,16 @@ export function Navbar() {
                 <Button
                     size="lg"
                     className="bg-primary hover:bg-primary/90 font-bold w-full"
-                    onClick={() => window.open('https://wa.me/5511910437332', '_blank')}
+                    onClick={() => {
+                        setIsOpen(false);
+                        setIsTrialModalOpen(true);
+                    }}
                 >
                     TESTE GRÁTIS AGORA
                 </Button>
             </div>
+
+            <TrialModal isOpen={isTrialModalOpen} onClose={() => setIsTrialModalOpen(false)} />
         </nav>
     )
 }
