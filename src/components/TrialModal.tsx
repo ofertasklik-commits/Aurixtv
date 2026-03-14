@@ -19,7 +19,7 @@ interface TrialModalProps {
 export function TrialModal({ isOpen, onClose }: TrialModalProps) {
   const [step, setStep] = useState<'form' | 'loading' | 'success' | 'error'>('form');
   const [formData, setFormData] = useState({ name: '', phone: '' });
-  const [testData, setTestData] = useState<{ user?: string; pass?: string; msg?: string } | null>(null);
+  const [testData, setTestData] = useState<{ username?: string; password?: string; msg?: string } | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -47,7 +47,7 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
 
   const handleWhatsAppRedirect = () => {
     const sellerNumber = '5511910437332';
-    const message = `Olá, gerei um teste através do site. Esse é meu login: ${testData?.user || 'Automático'} e senha: ${testData?.pass || 'Automática'}. O que devo fazer agora?`;
+    const message = `Olá, gerei um teste através do site. Esse é meu login: ${testData?.username || 'Automático'} e senha: ${testData?.password || 'Automática'}. O que devo fazer agora?`;
     window.open(`https://wa.me/${sellerNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
@@ -108,11 +108,11 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
               <CheckCircle2 className="w-12 h-12 text-primary mx-auto" />
               <div className="space-y-1">
                 <p className="text-xs text-muted-foreground uppercase font-bold tracking-wider">Usuário</p>
-                <p className="text-2xl font-mono font-bold text-primary">{testData?.user || 'Gerando...'}</p>
+                <p className="text-2xl font-mono font-bold text-primary">{testData?.username || 'Gerando...'}</p>
               </div>
               <div className="space-y-1">
                 <p className="text-xs text-muted-foreground uppercase font-bold tracking-wider">Senha</p>
-                <p className="text-2xl font-mono font-bold text-primary">{testData?.pass || 'Gerando...'}</p>
+                <p className="text-2xl font-mono font-bold text-primary">{testData?.password || 'Gerando...'}</p>
               </div>
             </div>
 
