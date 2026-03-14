@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Loader2, CheckCircle2, WhatsappIcon } from "lucide-react";
+import { Loader2, CheckCircle2, MessageCircle } from "lucide-react";
 
 interface TrialModalProps {
   isOpen: boolean;
@@ -120,6 +120,7 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
               onClick={handleWhatsAppRedirect}
               className="w-full h-14 bg-[#25D366] hover:bg-[#20ba5a] text-white font-black text-lg gap-2 shadow-lg shadow-green-500/20 active:scale-95 transition-all"
             >
+              <MessageCircle className="w-6 h-6" />
               RECEBER NO WHATSAPP
             </Button>
             
